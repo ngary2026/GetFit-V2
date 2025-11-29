@@ -11,7 +11,7 @@
 
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.bitfit.ui.DashboardFragment"
+        android:name="com.example.bitfit.DashboardFragment"
         android:label="Dashboard" />
 
 </navigation>

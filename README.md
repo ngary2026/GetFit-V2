@@ -4,15 +4,15 @@ Submitted by: **Neranti Gary**
 
 **GetFit - V2** is a health metrics app that allows users to track ... [TODO] 
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Use at least 2 Fragments**
-- [ ] **Create a new dashboard fragment where users can see a summary of their entered data**
-- [ ] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+- [X] **Use at least 2 Fragments**
+- [X] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [X] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
 
 The following **optional** features are implemented:
 
@@ -27,20 +27,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Video Walkthrough](project6_walkthrough.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ...  QuickMovie + Imgurws
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One major hurdle was implementing Android’s Navigation Component for the first time. Transitioning from a single-screen activity to a multi-fragment structure meant restructuring the app’s architecture, updating layouts, and ensuring every fragment was properly registered in the navigation graph. Early crashes occurred when fragment class names and package paths didn’t match the navigation graph, and resolving these mismatches required close attention to detail.
 
-## License
+## License - NONE
 
     Copyright [yyyy] [name of copyright owner]
 
