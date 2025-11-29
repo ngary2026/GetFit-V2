@@ -41,7 +41,7 @@ class WorkoutActivity : AppCompatActivity() {
 
         // Views
         titleEdit = findViewById(R.id.etWorkoutTitle)
-//        pencilIcon = findViewById(R.id.ivPencil)
+        // pencilIcon = findViewById(R.id.ivPencil)
         addExerciseBtn = findViewById(R.id.btnAddExercise)
         endWorkoutBtn = findViewById(R.id.btnEndWorkout)
         rvExercises = findViewById(R.id.rvExercises)
@@ -58,10 +58,10 @@ class WorkoutActivity : AppCompatActivity() {
         }
 
         // Pencil focuses and moves cursor to end
-//        pencilIcon.setOnClickListener {
-//            titleEdit.requestFocus()
-//            titleEdit.setSelection(titleEdit.text.length)
-//        }
+        // pencilIcon.setOnClickListener {
+        //     titleEdit.requestFocus()
+        //     titleEdit.setSelection(titleEdit.text.length)
+        // }
 
         // Add a blank exercise row
         addExerciseBtn.setOnClickListener {

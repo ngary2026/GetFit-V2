@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/workoutListFragment">
+
+    <fragment
+        android:id="@+id/workoutListFragment"
+        android:name="com.example.bitfit.ui.WorkoutListFragment"
+        android:label="Workouts" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.bitfit.ui.DashboardFragment"
+        android:label="Dashboard" />
+
+</navigation>
